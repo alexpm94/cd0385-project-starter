@@ -18,7 +18,8 @@ It was the MAJOR improvement. The score passed from 1.81 to 0.56.
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-After I tried different hyperparameters, the best one was a XGBOOST. I developed the project in my local machine and set the GPU to 1. I think it was the most relevant hyperparameter to reduce the score.
+After I tried different hyperparameters, the best one was WeightedEnsemble_L2. I developed the project in my local machine and set the GPU to 1. I think it was the most relevant hyperparameter to reduce the score.
+To improve the score, I should dive deep into hyperparameters tuning for this specific model, but I prefer to dedicate my time to other concepts and modules in this course.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
 I would like to understand more the data. So, I'd spend more time doing explanatory analysis and creating feature engineering.
@@ -28,8 +29,6 @@ After that I'd definitely spend more time in hyperparameter tuning.
 ![table_hpo.png](img/table_hpo.png)
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
-
-TODO: Replace the image below with your own.
 
 ![model_train_score.png](img/model_train_score.png)
 
